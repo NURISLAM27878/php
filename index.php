@@ -1,4 +1,4 @@
-<?php
+<?php /*
 $color = "#FFF";
 $bg = "#7EA70E";
 $size = "20px";
@@ -47,3 +47,4 @@ $size = "20px";
 
 	</body>
 </html>
+*/
