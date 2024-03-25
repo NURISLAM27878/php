@@ -195,5 +195,89 @@ $arrry = explode(" ", $r);
             break;
     }
 
+    // function ===============================
+    function text(){
+        echo esc_html( 'hi, I m  nur' );
+    }
+    text();
+
+    function text2(){
+        return esc_html( 'hello' );
+    }
+    echo text2();
+
+    function calculator1($a, $b, $type){
+        switch ($type) {
+            case 'add':
+                return $a + $b;
+                break;
+            case 'sub':
+                return $a - $b;
+                break;
+            case 'mult':
+                return $a * $b;
+                break;
+            default:
+                echo $a / $b;
+                break;
+        }
+    }
+
+echo calculator1(5, 7, 'add');
+echo calculator1(8, 7, 'sub');
+echo calculator1(49, 7, 'mult');
+
+function fng($a = 'nur'){
+    return $a;
+}
+echo fng();
+
+function iffun($a, $b, $type){
+    if ($type = 'add') {
+        echo $a + $b;
+    }
+    elseif ($type = 'sub') {
+        echo $a - $b;
+    }
+    elseif ($type = 'mult') {
+        echo $a * $b;
+    }
+    else {
+        echo $a / $b;
+    }
+}
+
+iffun(1, 2, 'add');
+iffun(5, 2, 'sub');
+iffun(3, 2, 'mult');
+
+function opt($a = 'a'){
+    echo $a;
+}
+opt();
+
+// while loop =======================================
+
+// this loop for unlimited print 
+// while (1) {
+//     echo "print this line" . '<br>';
+// }
+
+$xx = 1;
+
+// this loop also unlimited print 
+// while ($xx < 6) {
+//     echo "hi";
+// }
+// while ($xx < 6) {
+//     $xx++;
+//     echo "<br>" . "hi" . "<br>";
+// }
+while ($xx < 6) {
+    $xx++;
+    echo $xx;
+   
+}
+
 
 exit; 
