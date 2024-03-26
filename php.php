@@ -64,5 +64,16 @@ while ($h <= 100) {
     $h+=10;
     echo $h . '<br>';
 }
+$star = "*";
+$number = 1;
+while ($number <= 10) {
+    // echo $number . "<br>";
+    // $number++;
+//     $number+= "*";
+//   echo $number . "<br>";
+    
+    echo $number;
+    $number++;
+}
 
 exit; 
