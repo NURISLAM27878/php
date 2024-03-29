@@ -64,15 +64,116 @@ while ($h <= 100) {
     $h+=10;
     echo $h . '<br>';
 }
+
+
+
+
+
 $star = "*";
 $number = 1;
-while ($number <= 10) {
+
+
+// while ($number <= 10) {
+//     while ($number+=1) {
+//         echo $number . $number;
+//     }
+//     $number++;
+//   }
+// while ($number <= 30) {
     // echo $number . "<br>";
     // $number++;
 //     $number+= "*";
 //   echo $number . "<br>";
     
-    echo $number;
+// echo $number;
+    // $star+=$star;
+    // if($number <= 10){
+    //     echo $star . $star . "<br>";
+    // }
+
+
+    // $number++;
+    // if($number <= 10){
+    //     echo $star . "<br>";
+    // }
+
+
+    // $number++;
+    // if($number <= 10){
+    //     echo $number . "<br>";
+    // }
+
+
+    // if($number <= 10){
+    //     // echo $number+$number;
+    //     if ($number++) {
+    //         echo $star . $star . "<br>";
+    //     }
+    // }
+
+
+    // $number++;
+    // echo $number;
+    // $number+$number;
+//     if ($number == 10) break;
+//     echo $number;
+
+
+//    $number++;
+        // $addnum = $number+=1;
+        // if ($addnum <=20) {
+        //     echo $star . "<br>";
+        // }
+
+
+        // $number++;
+        // if ($number++ < 20){
+        //     echo $star++ . "<br>";
+        // }
+
+        // if($number <= 10){
+        //     while ($number <= 10) {
+        //         // echo $star;
+        //         echo $star++;
+        //     }
+            
+        // }
+        // $number++;
+
+// }
+
+
+// while ($number < 100) {
+//     if ($number == 10) break;
+//     echo $star;
+//     $star++;
+//   }
+
+
+// while ($number <= 10) {
+//     echo str_repeat($star, $star+1);
+//     echo "<br>";
+//     $star++;
+// }
+
+
+// while ($number <= 10) {
+//     $repeat = str_repeat($star, $number+1);
+//     echo $repeat;
+//     echo substr($repeat, 1, -1);
+//     echo "<br>";
+//     $number++;
+// }
+
+while ($number <= 10) {
+    if ($number+1) {
+        $repeat = str_repeat($star, $number+1);
+         echo $repeat."<br>";
+    }
+    // if ($number+1) {
+    //     $repeat = str_repeat($star, $number+1);
+    //     echo $repeat."<br>";  
+    // }
     $number++;
 }
 
