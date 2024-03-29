@@ -177,4 +177,33 @@ while ($number <= 10) {
     $number++;
 }
 
+// do while loop ============
+$v = 1;
+do {
+    echo $v;
+    $v++;
+} while ($v <= 10);
+
+
+// for lop ==============
+for ($a=0; $a <=10 ; $a++) { 
+    echo "somethig" . "<br>";
+}
+
+
+// foreach loop =============
+$name = array("akash", "rajen", "nur");
+foreach ($name as $a ) {
+    echo  "$a <br>";
+}
+
+// key and man ********
+
+$names = array("rajen"=>"1", "akash"=>"2", "nur"=>"3");
+
+foreach ($names as $name => $roll) {
+    echo "Name : $name , Roll: $roll <br>";
+}
+
+
 exit; 
