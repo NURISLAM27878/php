@@ -165,15 +165,20 @@ $number = 1;
 //     $number++;
 // }
 
+// while ($number <= 10) {
+//     if ($number+1) {
+//         $repeat = str_repeat($star, $number+1);
+//          echo $repeat."<br>";
+//     }
+//     // if ($number+1) {
+//     //     $repeat = str_repeat($star, $number+1);
+//     //     echo $repeat."<br>";  
+//     // }
+//     $number++;
+// }
 while ($number <= 10) {
-    if ($number+1) {
-        $repeat = str_repeat($star, $number+1);
-         echo $repeat."<br>";
-    }
-    // if ($number+1) {
-    //     $repeat = str_repeat($star, $number+1);
-    //     echo $repeat."<br>";  
-    // }
+    $repeat = str_repeat($star, $number);
+    echo $repeat."<br>";
     $number++;
 }
 
