@@ -3,6 +3,9 @@
 * Plugin Name: php practice
 */
 
+
+echo "all done";
+
 $cars = ['model' => 'BMW', 'cars' => [
         'car' => 'One'
     ]
