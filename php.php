@@ -178,6 +178,7 @@ $number = 1;
 // }
 while ($number <= 10) {
     $repeat = str_repeat($star, $number);
+    echo $number;
     echo $repeat."<br>";
     $number++;
 }
