@@ -3,6 +3,21 @@
 * Plugin Name: php practice
 */
 
+
+// echo phpversion();
+
+$name = "shah alom";
+$br = "<br>";
+$var = ["nur", "shah alom"];
+
+
+
+echo $name . $br . $br . "Nur". "<br>";
+var_dump($var);
+
+
+
+exit; 
 // while loop =======================================
 
 // this loop for unlimited print 
@@ -212,4 +227,6 @@ foreach ($names as $name => $roll) {
 }
 
 
-exit; 
+echo "<br>";
+echo "shah alom";
+
